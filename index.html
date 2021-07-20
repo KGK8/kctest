@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no"
+    />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Train+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="preloader">
+      <span></span>
+      <span></span>
+    </div>
+    <!-- Container -->
+    <div class="cont load">
+      <nav>
+        <div class="logo">
+          <h4>KC</h4>
+        </div>
+        <ul class="nav-links">
+          <li>
+            <a href="#home" data-content="Home" onclick="menuClose()">Home</a>
+          </li>
+          <li>
+            <a href="#about" data-content="About" onclick="menuClose()"
+              >About</a
+            >
+          </li>
+          <li>
+            <a href="#skills" data-content="Skills" onclick="menuClose()"
+              >Skills</a
+            >
+          </li>
+          <li>
+            <a href="#work" data-content="Work" onclick="menuClose()">Awards</a>
+          </li>
+          <li>
+            <a href="#contactus" data-content="Contact Us" onclick="menuClose()"
+              >Contact Us</a
+            >
+          </li>
+        </ul>
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+      </nav>
+      <div class="landing-page" id="home">
+        <div class="image-layer">
+          <img src="border.png" class="img-land" data-speed="5" />
+          <img src="2.png" class="img-land-1" data-speed="2" />
+        </div>
+        <h1
+          class="name"
+          id="name"
+          data-content="Krishna Chaitanya Vedantham"
+          data-speed="5"
+        >
+          <span>K</span>rishna <span>C</span>haitanya <span>V</span>edantham
+        </h1>
+        <span id="num" style="color: aliceblue"></span>
+      </div>
+      <!-- <div class="about-page" id="about">
+        <h1 class="title">About</h1>
+      </div>
+      <div class="skills-page" id="skills"></div>
+      <div class="work-page" id="work"></div>
+      <div class="contact-page" id="contactus"></div> -->
+    <!-- </div> -->
+    <!-- End Container -->
+    <script src="index.js"></script>
+  </body>
+</html>
